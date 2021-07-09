@@ -9,8 +9,8 @@ import time
 import pymysql
 
 # api authentication
-client_id = "aacad961f47a4eea8870140406fd0d88"
-client_secret = "2634a4b3b13a4c36a7e53819400623b8"
+client_id = "client_id"
+client_secret = "client_secret"
 params = {
         "q" : "BTS",
         "type" : "album"
