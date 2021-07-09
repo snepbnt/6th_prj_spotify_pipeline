@@ -2,10 +2,10 @@
 import tweepy
 
 # 트위터 계정에서 토큰 가져오기
-consumer_key = "YfyoxwdnsVZIYWhDHgGhHSG1B" # api key
-comsumer_secret = "B4LmE5VJLKGfJsm4sYjiZRULeVWIxRZT7IjDEMeWQnORNT5IV1" # api secret key
-access_token = "1381615798158958593-Ac12ve0Y4uwUb0RJR5bwSD0qODUvgh"
-access_token_secret = "FjJxEcVcjriDK3upZQVXNWqBicF3ZQzxqOM2PcrAryrb6"
+consumer_key = "consumer_key" # api key
+comsumer_secret = "comsumer_secret" # api secret key
+access_token = "1381615798158958593-access_token"
+access_token_secret = "access_token_secret"
 
 # 계정 승인
 auth = tweepy.OAuthHandler(consumer_key=consumer_key, consumer_secret=comsumer_secret)
